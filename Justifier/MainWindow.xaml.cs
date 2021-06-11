@@ -24,5 +24,10 @@ namespace Justifier
         {
             InitializeComponent();
         }
+
+        private void MainGrid_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            throw new IndexOutOfRangeException();
+        }
     }
 }
